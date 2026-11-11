@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" width="720" height="520" role="img" aria-labelledby="tituloGrafico">
+  <title id="tituloGrafico">Gráfico de barras ascendente coronado por un corazón</title>
+  <desc>Cinco barras de altura creciente en tonos rosas, con un corazón situado sobre la barra más alta.</desc>
+  <defs>
+    <linearGradient id="corazonGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5f7f"/>
+      <stop offset="1" stop-color="#c11f42"/>
+    </linearGradient>
+    <filter id="sombra" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#c11f42" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- Línea base -->
+  <path d="M72 460 L648 460" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Barras -->
+  <path d="M108 460 L108 354 Q108 340 122 340 L166 340 Q180 340 180 354 L180 460 Z" fill="#ffc2ce"/>
+  <path d="M216 460 L216 299 Q216 285 230 285 L274 285 Q288 285 288 299 L288 460 Z" fill="#ff93a8"/>
+  <path d="M324 460 L324 244 Q324 230 338 230 L382 230 Q396 230 396 244 L396 460 Z" fill="#ff5f7f"/>
+  <path d="M432 460 L432 189 Q432 175 446 175 L490 175 Q504 175 504 189 L504 460 Z" fill="#f94d6e"/>
+  <path d="M540 460 L540 134 Q540 120 554 120 L598 120 Q612 120 612 134 L612 460 Z" fill="#c11f42"/>
+
+  <!-- Corazón sobre la barra más alta -->
+  <g filter="url(#sombra)">
+    <path d="M576 118
+             C576 118 526 82.8 526 60.8
+             C526 43.2 541 30 551 30
+             C564 30 576 43.2 576 52
+             C576 43.2 588 30 601 30
+             C611 30 626 43.2 626 60.8
+             C626 82.8 576 118 576 118 Z"
+          fill="url(#corazonGrad)"/>
+  </g>
+
+  <!-- Destellos decorativos -->
+  <circle cx="668" cy="58" r="7" fill="#ffc2ce"/>
+  <circle cx="486" cy="46" r="5" fill="#ff93a8"/>
+  <circle cx="646" cy="126" r="4" fill="#ff93a8"/>
+  <circle cx="62" cy="300" r="5" fill="#ffc2ce"/>
+</svg>

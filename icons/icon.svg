@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Re-Late">
+  <title>Re-Late · Asociación de Enfermos de Rehabilitación Cardiaca</title>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5f7f"/>
+      <stop offset="0.55" stop-color="#f94d6e"/>
+      <stop offset="1" stop-color="#c11f42"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#fondo)"/>
+  <path d="M256 66 A190 190 0 1 1 200 74" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="16" stroke-linecap="round"/>
+  <path d="M256 400 C256 400 130 320 130 226 C130 172 172 134 214 134 C236 134 252 146 256 162 C260 146 276 134 298 134 C340 134 382 172 382 226 C382 320 256 400 256 400 Z"
+        fill="none" stroke="#ffffff" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="192,258 236,300 324,210" fill="none" stroke="#ffffff" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
